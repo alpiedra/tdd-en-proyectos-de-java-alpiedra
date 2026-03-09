@@ -27,7 +27,7 @@ class ServicioTest {
 
     @Test
     void testAñadirEmailDevuelveTrue() {
-        assertTrue(servicio.añadirEmail("alumno@uni.es"));
+        assertTrue(servicio.anadirEmail("alumno@uni.es"));
     }
 
     @Test
