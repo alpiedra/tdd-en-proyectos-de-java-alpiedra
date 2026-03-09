@@ -17,7 +17,7 @@ public class Servicio {
         return repositorio.guardarTodo(todo);
     }
 
-    public boolean añadirEmail(String email) {
+    public boolean anadirEmail(String email) {
         if (email == null || !email.contains("@")) return false;
         return repositorio.guardarEmail(email);
     }

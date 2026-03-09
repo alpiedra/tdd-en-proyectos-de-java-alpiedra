@@ -32,7 +32,7 @@ public class DBStub {
     public boolean eliminarTodo(String nombre) {
         return tareas.remove(nombre) != null;
     }
-    public boolean añadirEmail(String email) {
+    public boolean anadirEmail(String email) {
         if (email == null || email.isEmpty()) return false;
         emails.add(email);
         return true;

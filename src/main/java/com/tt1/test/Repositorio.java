@@ -32,7 +32,7 @@ public class Repositorio implements IRepositorio{
     }
 
     public boolean guardarEmail(String email) {
-        return db.añadirEmail(email);
+        return db.anadirEmail(email);
     }
 
     public List<String> getEmails() {
