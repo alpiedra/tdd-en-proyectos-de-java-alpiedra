@@ -47,4 +47,5 @@ public class ToDo {
 
     public void setCompletado(Boolean n) { this.completado = n; }
     public Boolean getCompletado() { return this.completado; }
+
 }
