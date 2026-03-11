@@ -38,12 +38,12 @@ class DBStubTest {
 
     @Test
     void testAñadirEmail() {
-        assertTrue(db.añadirEmail("test@test.com"));
+        assertTrue(db.anadirEmail("test@test.com"));
         assertEquals(1, db.getEmails().size());
     }
 
     @Test
     void testAñadirEmailNuloDevuelveFalse() {
-        assertFalse(db.añadirEmail(null));
+        assertFalse(db.anadirEmail(null));
     }
 }
