@@ -46,5 +46,6 @@ public class ToDo {
     public void setFecha(String n) { this.fecha = n; }
 
     public void setCompletado(Boolean n) { this.completado = n; }
-    public Boolean getCompletado() { return this.completado; }
+    public Boolean getCompletado() { return this.completado;
+    }
 }
