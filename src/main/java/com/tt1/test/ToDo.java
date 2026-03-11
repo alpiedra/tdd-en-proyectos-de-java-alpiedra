@@ -36,5 +36,4 @@ public class ToDo {
     public Boolean getCompletado(){
         return this.completado;
     }
-
 }
